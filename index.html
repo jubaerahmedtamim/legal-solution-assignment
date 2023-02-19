@@ -1,15 +1,407 @@
 <!doctype html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Legal Solution</title>
     <!-- Cascading Style sheet here -->
     <link rel="stylesheet" href="styles/style.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-  </head>
-  <body>
-    
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
-  </body>
+    <!-- font awesome link -->
+    <script src="https://kit.fontawesome.com/d8ce688868.js" crossorigin="anonymous"></script>
+    <!-- bootstrap cdn link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+</head>
+
+<body>
+    <!-- header here -->
+    <header>
+        <!-- nav here  -->
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container">
+                <div>
+                    <a class="navbar-brand" href="#">
+                        <img src="images/logo2.png" alt="Bootstrap" width="" height="">
+                    </a>
+                </div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home <i
+                                    class="fa fa-thin fa-greater-than"></i></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Services <i class="fa fa-thin fa-greater-than"></i></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link">Cases <i class="fa fa-thin fa-greater-than"></i></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link">Blogs <i class="fa fa-thin fa-greater-than"></i></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link">Contact Us</a>
+                        </li>
+                    </ul>
+                    <form class="" role="search">
+                        <button class="btn btn-danger" type="submit">Free Consultation</button>
+                    </form>
+                </div>
+
+            </div>
+        </nav>
+        <!-- banner section here -->
+        <section class="container mb-5">
+            <div class="d-flex flex-column align-items-center justify-content-center p-5  banner">
+                <h1 class="text-white display-3 banner-title">We Provide Effective Legal Solutions</h1>
+                <p class="text-secondary-emphasis">There are many variations of passages of Lorem Ipsum available, but
+                    the
+                    majority have suffered alteration in some form, by injected humour. </p>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search your services"
+                        aria-label="Search">
+                    <button class="btn btn-danger" type="submit">Search</button>
+                </form>
+            </div>
+        </section>
+    </header>
+    <!-- main here -->
+    <main>
+        <!--  practice section here  -->
+        <section class="container mb-5">
+            <h2 class="title mb-3 text-center">The Legal Practice Area</h2>
+            <p class="info mb-4 text-center">Justice ensures fairness and equality for all, holding individuals and
+                institutions accountable for their actions and upholding the rule of law.</p>
+            <div class="row">
+                <div class="col-12 col-md-6 col-lg-4 border border-secondary-subtle hover-effect">
+                    <div class="text-center p-3">
+                        <img class="mb-3" src="images/business.png" alt="">
+                        <h3 class="mb-3">Business Law</h3>
+                        <p class="mb-3">Business law encompasses a wide range of legal areas, including contracts,
+                            intellectual property, employment law, and commercial transactions. It governs the creation
+                            and operation of businesses, as well as their relationships with customers, suppliers, and
+                            other stakeholders.
+                        </p>
+                        <img src="images/Frame.png" alt="">
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 border border-secondary-subtle hover-effect">
+                    <div class="text-center p-3">
+                        <img class="mb-3" src="images/criminal.png" alt="">
+                        <h3 class="mb-3">Criminal Law</h3>
+                        <p class="mb-3">Criminal law involves the prosecution of individuals who have committed crimes,
+                            which are actions that are considered harmful to society. The purpose of criminal law is to
+                            punish offenders and deter others from committing similar crimes. Criminal charges can
+                            result in fines, imprisonment, or other penalties.
+                        </p>
+                        <img src="images/Frame.png" alt="">
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 border border-secondary-subtle hover-effect">
+                    <div class="text-center p-3">
+                        <img class="mb-3" src="images/child.png" alt="">
+                        <h3 class="mb-3">Child Support</h3>
+                        <p class="mb-3">Child support is a legal obligation in which a non-custodial parent provides
+                            financial support to their child. The amount of support is typically determined based on the
+                            parents' income and the child's needs. Failure to pay child support can result in legal
+                            consequences.
+                        </p>
+                        <img src="images/Frame.png" alt="">
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 border  border-secondary-subtle hover-effect">
+                    <div class="text-center p-3">
+                        <img class="mb-3" src="images/tax.png" alt="">
+                        <h3 class="mb-3">Tax Law</h3>
+                        <p class="mb-3">Tax law governs the legal system of taxes, including the collection and payment
+                            of taxes to the government. It includes issues such as income tax, sales tax, property tax,
+                            and international tax law. Tax law is constantly changing and can be complex, requiring the
+                            assistance of a tax professional.
+                        </p>
+                        <img src="images/Frame.png" alt="">
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 border  border-secondary-subtle hover-effect">
+                    <div class="text-center p-3">
+                        <img class="mb-3" src="images/education.png" alt="">
+                        <h3 class="mb-3">Education Law</h3>
+                        <p class="mb-3">Education law governs the legal rights and responsibilities of students,
+                            teachers, and educational institutions. It includes issues such as school safety,
+                            discrimination, special education, and academic standards. Education law also covers
+                            regulations for homeschooling, private schools, and higher education institutions.
+                        </p>
+                        <img src="images/Frame.png" alt="">
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 border  border-secondary-subtle hover-effect">
+                    <div class="text-center p-3">
+                        <img class="mb-3" src="images/divorce.png" alt="">
+                        <h3 class="mb-3">Divorce Law</h3>
+                        <p class="mb-3">Divorce law governs the legal process of ending a marriage. It involves the
+                            division of property, spousal support, child custody, and visitation. Divorce can be a
+                            complex and emotionally charged process, and it is important to have legal representation to
+                            ensure a fair and equitable outcome.
+                        </p>
+                        <img src="images/Frame.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- our clint says section -->
+        <section class="container mb-5">
+            <h2 class="title text-center">What Our Client Say</h2>
+            <p class="info text-center
+            mb-5">There are many variations of passages of Lorem Ipsum available, but the majority have suffered
+                alteration in some form, by injected humour.</p>
+            <!-- carousel here -->
+            <div class="carousel slide carousel-fade" id="myCarousel" data-bs-ride="carousel">
+                <!-- indicators -->
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active"></button>
+                    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active position-relative bg-black text-white">
+                        <div class=" position-absolute top-0 bottom-0 start-0 end-0 opacity-50" style="
+              background-image: url(/images/slider-1.jpg);
+              background-position: center;
+              background-size: cover;">
+                        </div>
+                        <div class=" text-center container position-absolute top-50 start-50 translate-middle ">
+                            <img src="images/user (1).png" alt="">
+                            <h3>Awlad Hossain</h3>
+                            <p>UI/UX Designer</p>
+                            <p class="carousel-info mb-5">UX designers are responsible for the overall experience a user
+                                has when interacting with a product. They focus on the user's journey, from their
+                                initial discovery of the product to their ongoing use of it.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item active position-relative bg-black text-white">
+                        <div class=" position-absolute top-0 bottom-0 start-0 end-0 opacity-50" style="
+              background-image: url(/images/slider-2.jpg);
+              background-position: center;
+              background-size: cover;">
+                        </div>
+                        <div class=" text-center container position-absolute top-50 start-50 translate-middle ">
+                            <img src="images/user (1).png" alt="">
+                            <h3>Shakib Hasan</h3>
+                            <p>Graphic Designer</p>
+                            <p class="carousel-info mb-5">UX designers are responsible for the overall experience a user
+                                has when interacting with a product. They focus on the user's journey, from their
+                                initial discovery of the product to their ongoing use of it.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item active position-relative bg-black text-white">
+                        <div class=" position-absolute top-0 bottom-0 start-0 end-0 opacity-50" style="
+              background-image: url(/images/slider-3.jpg);
+              background-position: center;
+              background-size: cover;">
+                        </div>
+                        <div class=" text-center container position-absolute top-50 start-50 translate-middle ">
+                            <img src="images/user (1).png" alt="">
+                            <h3>Jubaer Ahmed Tamim</h3>
+                            <p>Full Stack Developer</p>
+                            <p class="carousel-info mb-5">UX designers are responsible for the overall experience a user
+                                has when interacting with a product. They focus on the user's journey, from their
+                                initial discovery of the product to their ongoing use of it.</p>
+                        </div>
+                    </div>
+                    <!-- carousel button (previous and next) -->
+                    <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#myCarousel"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </button>
+                </div>
+        </section>
+        <!-- faq section -->
+        <section class="container mb-5">
+            <h2 class="title text-center">Frequently Asked Any Questions</h2>
+            <p class="info text-center
+            mb-5">The purpose of an FAQ is to provide quick and easy access to information that users may need. By providing answers to common questions, an FAQ can help users find the information.</p>
+            <div class="row">
+                <div class="col-12 col-md-6">
+                    <div class="accordion" id="accordionExample">
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="headingOne">
+                            <button class="accordion-button banner-title" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                              1. What is the difference between law and justice?
+                            </button>
+                          </h2>
+                          <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                Law is a system of rules and regulations that govern behavior in a society, whereas justice refers to the concept of fairness and the administration of that fairness through the legal system.
+                            </div>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="headingTwo">
+                            <button class="accordion-button banner-title collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                2. What is the purpose of the legal system?
+                            </button>
+                          </h2>
+                          <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                The purpose of the legal system is to establish rules and regulations that govern behavior in a society, resolve disputes, and provide a framework for the administration of justice.
+                            </div>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="headingThree">
+                            <button class="accordion-button banner-title collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                              3. What is due process?
+                            </button>
+                          </h2>
+                          <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                Due process refers to the legal requirement that individuals receive fair treatment through the judicial system, including the right to a fair trial, the right to an attorney, and the right to present evidence in their defense.
+                            </div>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="headingFour">
+                            <button class="accordion-button banner-title collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseThree">
+                              4. What is the principle of innocent until proven guilty?
+                            </button>
+                          </h2>
+                          <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                The principle of innocent until proven guilty is a fundamental aspect of the legal system that holds that a person is presumed innocent until proven guilty beyond a reasonable doubt.
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-12 col-md-6">
+                    <img src="images/faq.png" alt="">
+                </div>
+            </div>
+        </section>
+        <!-- contact section -->
+        <section class="container mb-5">
+            <h2 class="title text-center">Contact With Us</h2>
+            <p class="info text-center
+            mb-5">The purpose of an Contact Us is to provide quick and easy access to information that users may need. By providing answers to common questions, an FAQ can help users find the information.</p>
+            <div class="row">
+                <div class="col-12 col-md-6">
+                    <div class="text-center">
+                        <div class="row">
+                          <div class="col-6 bg-address border">
+                            <div class="p-3 text-center">
+                                <img class="mb-2" src="images/address.png" alt="">
+                                <h4 class="banner-title">Address</h4>
+                                <p class="info mb-0">A108 Adam Street,</p>
+                                <p class="info">New York, NY 535022</p>
+                            </div>
+                          </div>
+                          <div class="col-6 bg-address border">
+                            <div class="p-3 text-center">
+                                <img class="mb-2" src="images/call.png" alt="">
+                                <h4 class="banner-title">Call Us</h4>
+                                <p class="info mb-0">+88 01750 00 00 00</p>
+                                <p class="info">+88 01750 00 00 00</p>
+                            </div>
+                          </div>
+                          <div class="col-6 bg-address border">
+                            <div class="p-3 text-center">
+                                <img class="mb-2" src="images/email.png" alt="">
+                                <h4 class="banner-title">Email Us</h4>
+                                <p class="info mb-0">info@gmail.com</p>
+                                <p class="info">info@gmail.com</p>
+                            </div>
+                          </div>
+                          <div class="col-6 bg-address border">
+                            <div class="p-3 text-center">
+                                <img class="mb-2" src="images/time.png" alt="">
+                                <h4 class="banner-title">Working Hours</h4>
+                                <p class="info mb-0">Mon-Fri: 9AM to 5PM</p>
+                                <p class="info">Sunday: 9AM to 1 PM</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-12 col-md-6">
+                    <form class="p-3 d-flex flex-column">
+                        <div class="mb-3 ">
+                          <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Your Name" aria-describedby="emailHelp">
+                        </div>
+                        <div class="mb-3">
+                          <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email" aria-describedby="emailHelp">
+                        </div>
+                        <select class="form-select mb-3" aria-label="Default select example">
+                            <option selected>Open this select menu</option>
+                            <option value="1">One</option>
+                            <option value="2">Two</option>
+                            <option value="3">Three</option>
+                        </select>
+                        <div class="mb-3">
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Your Message"></textarea>
+                          </div>
+                        <button  type="submit" class="btn d-grid btn-danger">Send Message</button>
+                      </form>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- footer here -->
+    <footer class="bg-black">
+        <div class="container">
+            <div class="row py-5">
+                <div class="col-12 col-md-6 col-lg-3 ">
+                    <img class="mb-3" src="images/logo.png" alt="">
+                    <p class="info">Tax law governs the legal system of taxes, including the collection and payment
+                        of taxes to the government. It includes issues such as income tax, sales tax, property tax,
+                        and international tax law. Tax law is constantly changing and can be complex, requiring the
+                        assistance of a tax professional.</p>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3 useful-link">
+                    <h4 class="useful-title mb-4">Usefull link</h4>
+                    <ul class="list-unstyled info">
+                        <li>Home</li>
+                        <li>About Us</li>
+                        <li>Cases</li>
+                        <li>Blogs</li>
+                        <li>Contact Us</li>
+                    </ul>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <h4 class="useful-title mb-4">Contact Now</h4>
+                    <ul class="list-unstyled info">
+                        <li>555 4th 5t NW, Washington</li>
+                        <li>DC 20530, United States</li>
+                        <li>+88 01750 000 000</li>
+                        <li>+88 01750 000 000</li>
+                        <li>info@gmail.com</li>
+                    </ul>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <h4 class="useful-title mb-4">Contact Now</h4>
+                    <p class="info">Subscribe for our latest & Articles. We Won’t Give You Spam Mails</p>
+                    <form >
+                        <div class="">
+                            <a class="text-decoration-none "  href=""><input type="email" class="p-2" id="exampleInputEmail1" placeholder="Email address" aria-describedby="emailHelp"><i class="fa fa-light fa-paper-plane bg-danger p-3 rounded-end "></i></a>
+                          </div>
+                    </form>
+                </div>
+            </div>
+
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+</body>
+
 </html>
